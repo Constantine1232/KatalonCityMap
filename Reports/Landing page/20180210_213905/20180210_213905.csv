@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Landing page,Chrome 63.0.3239.132,,2018-02-10 21:39:07,2018-02-10 21:39:17,9.938s,PASSED
+,,,,,,
+Test Cases/Check Landing Page Title,Chrome 63.0.3239.132,,2018-02-10 21:39:07,2018-02-10 21:39:13,5.982s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-10 21:39:08,2018-02-10 21:39:11,2.732s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-10 21:39:11,2018-02-10 21:39:13,2.532s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 63.0.3239.132,,2018-02-10 21:39:13,2018-02-10 21:39:13,0.073s,PASSED
+verifyMatch,Chrome 63.0.3239.132,,2018-02-10 21:39:13,2018-02-10 21:39:13,0.048s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-10 21:39:13,2018-02-10 21:39:13,0.116s,PASSED
+,,,,,,
+Test Cases/Verified That Elemets are Clikable,Chrome 63.0.3239.132,,2018-02-10 21:39:13,2018-02-10 21:39:17,3.587s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-10 21:39:14,2018-02-10 21:39:14,0.726s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-10 21:39:14,2018-02-10 21:39:17,2.337s,PASSED
+verifyElementClickable,Chrome 63.0.3239.132,,2018-02-10 21:39:17,2018-02-10 21:39:17,0.158s,PASSED
+verifyElementClickable,Chrome 63.0.3239.132,,2018-02-10 21:39:17,2018-02-10 21:39:17,0.058s,PASSED
+verifyElementClickable,Chrome 63.0.3239.132,,2018-02-10 21:39:17,2018-02-10 21:39:17,0.053s,PASSED
+closeBrowser,Chrome 63.0.3239.132,,2018-02-10 21:39:17,2018-02-10 21:39:17,0.084s,PASSED

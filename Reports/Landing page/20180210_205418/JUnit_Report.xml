@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Landing page" time="12" tests="1" failures="0" errors="1">
+   <testsuite name="Landing page" tests="1" failures="0" errors="1" time="12" timestamp="2018-02-10 20:54:20" hostname="musienkok - 192.168.2.8" id="Test Suites/Landing page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180210_205418"/>
+         <property name="logFiles" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180210_205418/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="musienkok - 192.168.2.8"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="192.168.2.8"/>
+         <property name="sessionId" value="4460177a5a632b87fffba5e32eca91f4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Check Landing Page Title" classname="Test Cases/Check Landing Page Title" status="ERROR">
+         <error type="ERROR" message="Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case."/>
+         <system-out><![CDATA[2018-02-10 20:54:21 - [TEST_CASE][ERROR] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.
+
+2018-02-10 20:54:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-10 20:54:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-10 20:54:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-10 20:54:27 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-10 20:54:27 - [TEST_STEP][PASSED] - Statement - titleWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-10 20:54:27 - [MESSAGE][PASSED] - Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-10 20:54:27 - [TEST_STEP][PASSED] - verifyMatch: null]]></system-out>
+         <system-err><![CDATA[2018-02-10 20:54:21 - [TEST_CASE][ERROR] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verified That Elemets are Clikable" classname="Test Cases/Verified That Elemets are Clikable" status="PASSED">
+         <system-out><![CDATA[2018-02-10 20:54:27 - [TEST_CASE][PASSED] - Test Cases/Verified That Elemets are Clikable: Test Cases/Verified That Elemets are Clikable
+
+2018-02-10 20:54:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-10 20:54:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-10 20:54:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-10 20:54:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-10 20:54:32 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-10 20:54:32 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab Map' is clickable
+
+2018-02-10 20:54:32 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab Map' is clickable
+
+2018-02-10 20:54:32 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab My Access Points' is clickable
+
+2018-02-10 20:54:32 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab My Access Points' is clickable
+
+2018-02-10 20:54:32 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Button Sign In' is clickable
+
+2018-02-10 20:54:32 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Button Sign In' is clickable
+
+2018-02-10 20:54:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-10 20:54:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-10 20:54:20 - [TEST_SUITE][ERROR] - Landing page: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-02-10 20:54:20 - [TEST_SUITE][ERROR] - Landing page: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Landing page,Chrome 63.0.3239.132,,2018-02-09 12:12:40,2018-02-09 12:12:47,7.017s,ERROR
+,,,,,,
+Test Cases/Check Landing Page Title,Chrome 63.0.3239.132,,2018-02-09 12:12:40,2018-02-09 12:12:47,6.464s,ERROR
+openBrowser,Chrome 63.0.3239.132,,2018-02-09 12:12:41,2018-02-09 12:12:43,2.305s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-09 12:12:43,2018-02-09 12:12:47,3.449s,PASSED
+Statement - titleWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 63.0.3239.132,,2018-02-09 12:12:47,2018-02-09 12:12:47,0.088s,PASSED
+verifyMatch,Chrome 63.0.3239.132,,2018-02-09 12:12:47,2018-02-09 12:12:47,0.012s,PASSED

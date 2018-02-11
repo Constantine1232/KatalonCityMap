@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Landing page,Firefox 55.0,,2018-02-09 12:22:56,2018-02-09 12:23:14,17.955s,ERROR
+,,,,,,
+Test Cases/Check Landing Page Title,Firefox 55.0,,2018-02-09 12:22:57,2018-02-09 12:23:08,11.259s,ERROR
+openBrowser,Firefox 55.0,,2018-02-09 12:22:57,2018-02-09 12:23:05,7.716s,PASSED
+navigateToUrl,Firefox 55.0,,2018-02-09 12:23:05,2018-02-09 12:23:08,2.474s,PASSED
+Statement - titleWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 55.0,,2018-02-09 12:23:08,2018-02-09 12:23:08,0.271s,PASSED
+verifyMatch,Firefox 55.0,,2018-02-09 12:23:08,2018-02-09 12:23:08,0.020s,PASSED
+,,,,,,
+Test Cases/Verified That Elemets are Clikable,Firefox 55.0,,2018-02-09 12:23:08,2018-02-09 12:23:14,6.035s,FAILED
+openBrowser,Firefox 55.0,,2018-02-09 12:23:09,2018-02-09 12:23:14,4.895s,PASSED
+navigateToUrl,Firefox 55.0,,2018-02-09 12:23:14,2018-02-09 12:23:14,0.168s,FAILED
