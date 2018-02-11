@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Landing page,,,2018-02-10 22:17:32,2018-02-10 22:17:33,1.380s,INCOMPLETE
+,,,,,,
+Test Cases/Check Landing Page Title,,,2018-02-10 22:17:32,2018-02-10 22:17:33,1.066s,INCOMPLETE
+openBrowser,,,2018-02-10 22:17:32,2018-02-10 22:17:33,0.631s,INCOMPLETE

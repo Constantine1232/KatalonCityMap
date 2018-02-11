@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Landing page" time="45" tests="0" failures="1" errors="1">
+   <testsuite name="Landing page" tests="0" failures="1" errors="1" time="45" timestamp="2018-02-09 12:28:16" hostname="musienkok - 172.16.0.109" id="Test Suites/Landing page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122813"/>
+         <property name="logFiles" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122813/execution0.log"/>
+         <property name="attachments" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122813/1518172140394.png, /Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122813/1518172141175.png"/>
+         <property name="hostName" value="musienkok - 172.16.0.109"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="172.16.0.109"/>
+         <property name="sessionId" value="f7462ecbca0a9b123874670538ec0ddd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Check Landing Page Title" classname="Test Cases/Check Landing Page Title" status="ERROR">
+         <error type="ERROR" message="Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case."/>
+         <system-out><![CDATA[2018-02-09 12:28:16 - [TEST_CASE][ERROR] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.
+
+2018-02-09 12:28:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-09 12:28:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 12:28:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-09 12:28:24 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-09 12:28:24 - [TEST_STEP][PASSED] - Statement - titleWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-09 12:28:24 - [MESSAGE][PASSED] - Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-09 12:28:24 - [TEST_STEP][PASSED] - verifyMatch: null]]></system-out>
+         <system-err><![CDATA[2018-02-09 12:28:16 - [TEST_CASE][ERROR] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verified That Elemets are Clikable" classname="Test Cases/Verified That Elemets are Clikable" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' to be clickable (Root cause: Web element with id: 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' located by 'By.xpath: //button[count(. | id(&quot;navbarResponsive&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown pointer language-button&quot;]/button[@class=&quot;nav-link dropdown-toggle pointer btn-en&quot;]) = count(id(&quot;navbarResponsive&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item dropdown pointer language-button&quot;]/button[@class=&quot;nav-link dropdown-toggle pointer btn-en&quot;])]' not found)"/>
+         <system-out><![CDATA[2018-02-09 12:28:24 - [TEST_CASE][FAILED] - Test Cases/Verified That Elemets are Clikable: Test Cases/Verified That Elemets are Clikable FAILED because (of) Unable to verify object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' to be clickable (Root cause: Web element with id: 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' located by 'By.xpath: //button[count(. | id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"]) = count(id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"])]' not found)
+
+2018-02-09 12:28:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-09 12:28:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-09 12:28:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 12:28:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-09 12:28:29 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-09 12:28:29 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab Map' is clickable
+
+2018-02-09 12:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab Map' is clickable
+
+2018-02-09 12:28:29 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab My Access Points' is clickable
+
+2018-02-09 12:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Tab My Access Points' is clickable
+
+2018-02-09 12:28:29 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Button Sign In' is clickable
+
+2018-02-09 12:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Button Sign In' is clickable
+
+2018-02-09 12:28:29 - [TEST_STEP][FAILED] - verifyElementClickable: Unable to verify object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' to be clickable (Root cause: Web element with id: 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' located by 'By.xpath: //button[count(. | id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"]) = count(id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"])]' not found)
+
+2018-02-09 12:29:01 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' located by 'By.xpath: //button[count(. | id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"]) = count(id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"])]' not found
+[[ATTACHMENT|/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122813/1518172140394.png]]
+
+2018-02-09 12:29:01 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' to be clickable (Root cause: Web element with id: 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' located by 'By.xpath: //button[count(. | id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"]) = count(id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"])]' not found)
+[[ATTACHMENT|/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122813/1518172141175.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-09 12:28:24 - [TEST_CASE][FAILED] - Test Cases/Verified That Elemets are Clikable: Test Cases/Verified That Elemets are Clikable FAILED because (of) Unable to verify object 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' to be clickable (Root cause: Web element with id: 'Object Repository/Landing Page Objects/Page_Wifi City Map/Switch Language' located by 'By.xpath: //button[count(. | id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"]) = count(id("navbarResponsive")/ul[@class="navbar-nav"]/li[@class="nav-item dropdown pointer language-button"]/button[@class="nav-link dropdown-toggle pointer btn-en"])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-09 12:28:16 - [TEST_SUITE][ERROR] - Landing page: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-02-09 12:28:16 - [TEST_SUITE][ERROR] - Landing page: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

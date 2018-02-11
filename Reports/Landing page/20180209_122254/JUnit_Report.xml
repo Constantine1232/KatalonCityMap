@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Landing page" time="17" tests="0" failures="1" errors="1">
+   <testsuite name="Landing page" tests="0" failures="1" errors="1" time="17" timestamp="2018-02-09 12:22:56" hostname="musienkok - 172.16.0.109" id="Test Suites/Landing page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122254"/>
+         <property name="logFiles" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122254/execution0.log"/>
+         <property name="attachments" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122254/1518171794397.png"/>
+         <property name="hostName" value="musienkok - 172.16.0.109"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Firefox 55.0"/>
+         <property name="hostAddress" value="172.16.0.109"/>
+         <property name="sessionId" value="890d9b28-1531-f24c-a35d-723211854def"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Check Landing Page Title" classname="Test Cases/Check Landing Page Title" status="ERROR">
+         <error type="ERROR" message="Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case."/>
+         <system-out><![CDATA[2018-02-09 12:22:57 - [TEST_CASE][ERROR] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.
+
+2018-02-09 12:22:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-09 12:23:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 12:23:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-09 12:23:08 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-09 12:23:08 - [TEST_STEP][PASSED] - Statement - titleWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-09 12:23:08 - [MESSAGE][PASSED] - Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-09 12:23:08 - [TEST_STEP][PASSED] - verifyMatch: null]]></system-out>
+         <system-err><![CDATA[2018-02-09 12:22:57 - [TEST_CASE][ERROR] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verified That Elemets are Clikable" classname="Test Cases/Verified That Elemets are Clikable" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)"/>
+         <system-out><![CDATA[2018-02-09 12:23:08 - [TEST_CASE][FAILED] - Test Cases/Verified That Elemets are Clikable: Test Cases/Verified That Elemets are Clikable FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-02-09 12:23:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-09 12:23:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-09 12:23:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-09 12:23:14 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+
+2018-02-09 12:23:14 - [MESSAGE][FAILED] - Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)
+[[ATTACHMENT|/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180209_122254/1518171794397.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-09 12:23:08 - [TEST_CASE][FAILED] - Test Cases/Verified That Elemets are Clikable: Test Cases/Verified That Elemets are Clikable FAILED because (of) Unable to navigate to '' (Root cause: java.lang.IllegalArgumentException: Url cannot be null or empty)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-09 12:22:56 - [TEST_SUITE][ERROR] - Landing page: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-02-09 12:22:56 - [TEST_SUITE][ERROR] - Landing page: Test Cases/Check Landing Page Title FAILED because (of) Variable 'title' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

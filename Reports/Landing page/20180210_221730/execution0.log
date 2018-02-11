@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852088</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Landing page</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Landing page</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Landing page</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852116</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;musienkok - 192.168.2.8&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">musienkok - 192.168.2.8</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852117</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Mac OS X 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852117</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.2.8&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.2.8</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852119</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.2.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.2.0.1</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852402</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Check Landing Page Title</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Check Landing Page Title</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Check Landing Page Title</property>
+  <property name="source">\\Users\\musienkok\\Katalon Studio\\CityMap ProjectTest Cases\\Check Landing Page Title.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852558</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-02-10T22:17:32</date>
+  <millis>1518293852837</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-02-10T22:17:33</date>
+  <millis>1518293853468</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+</log>
