@@ -19,3 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://citymap.intetics.com')
+
+WebUI.click(findTestObject('Landing Page Objects/Landing Page/Button Sign In'))
+
+WebUI.setText(findTestObject('Landing Page Objects/Sign In popup/Input Field Email Address'), 'wefwfefeewffe')
+
+WebUI.setText(findTestObject('Landing Page Objects/Sign In popup/Input Field Password'), 'wef')
+
+WebUI.click(findTestObject('Landing Page Objects/Sign In popup/Button Sign In'))
+
+WebUI.verifyElementPresent(findTestObject('Landing Page Objects/Sign In popup/Allert Invalid cred'), 0)
+
+WebUI.closeBrowser()
+

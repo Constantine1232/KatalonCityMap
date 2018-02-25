@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DDT Sign UP</name>
+   <name>Check Alert</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d264cd5f-b8ba-4d72-aac7-584a09268e46</testCaseGuid>
+   <testCaseGuid>4239d194-6888-4944-88de-bdbfdf7250d2</testCaseGuid>
 </TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>Landing page</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-02-11T19:53:07</lastRun>
+   <lastRun>2018-02-25T17:07:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -34,5 +34,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Check Map Page Title</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc256ddd-2de5-4387-84af-186274801468</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DDT Sign In</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

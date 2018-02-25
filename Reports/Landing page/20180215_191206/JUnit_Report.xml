@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Landing page" time="21" tests="4" failures="0" errors="0">
+   <testsuite name="Landing page" tests="4" failures="0" errors="0" time="21" timestamp="2018-02-15 19:12:09" hostname="musienkok - 172.16.0.107" id="Test Suites/Landing page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180215_191206"/>
+         <property name="logFiles" value="/Users/musienkok/Katalon Studio/CityMap Project/Reports/Landing page/20180215_191206/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="musienkok - 172.16.0.107"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="172.16.0.107"/>
+         <property name="sessionId" value="facb24a87333935558e18031fee29211"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Check Landing Page Title" classname="Test Cases/Check Landing Page Title" status="PASSED">
+         <system-out><![CDATA[2018-02-15 19:12:09 - [TEST_CASE][PASSED] - Test Cases/Check Landing Page Title: Test Cases/Check Landing Page Title
+
+2018-02-15 19:12:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-15 19:12:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-15 19:12:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:16 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:16 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-15 19:12:16 - [MESSAGE][PASSED] - Current window's title is: 'Willkommen, Java Hipster!'
+
+2018-02-15 19:12:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Willkommen, Java Hipster!' and expected text 'Willkommen, Java Hipster!' are matched  using regular expression
+
+2018-02-15 19:12:16 - [MESSAGE][PASSED] - Actual text 'Willkommen, Java Hipster!' and expected text 'Willkommen, Java Hipster!' are matched  using regular expression
+
+2018-02-15 19:12:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-15 19:12:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verified That Elemets are Clikable" classname="Test Cases/Verified That Elemets are Clikable" status="PASSED">
+         <system-out><![CDATA[2018-02-15 19:12:17 - [TEST_CASE][PASSED] - Test Cases/Verified That Elemets are Clikable: Test Cases/Verified That Elemets are Clikable
+
+2018-02-15 19:12:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-15 19:12:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-15 19:12:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:21 - [MESSAGE][PASSED] - Navigate to 'https://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Landing Page/Tab Map' is clickable
+
+2018-02-15 19:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Landing Page/Tab Map' is clickable
+
+2018-02-15 19:12:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Landing Page/Tab My Access Points' is clickable
+
+2018-02-15 19:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Landing Page/Tab My Access Points' is clickable
+
+2018-02-15 19:12:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Landing Page/Button Sign In' is clickable
+
+2018-02-15 19:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Landing Page/Button Sign In' is clickable
+
+2018-02-15 19:12:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Landing Page Objects/Landing Page/Switch language Button' is clickable
+
+2018-02-15 19:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Landing Page/Switch language Button' is clickable
+
+2018-02-15 19:12:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-15 19:12:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Check Sign In" classname="Test Cases/Check Sign In" status="PASSED">
+         <system-out><![CDATA[2018-02-15 19:12:21 - [TEST_CASE][PASSED] - Test Cases/Check Sign In: Test Cases/Check Sign In
+
+2018-02-15 19:12:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-15 19:12:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-15 19:12:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:24 - [MESSAGE][PASSED] - Navigate to 'http://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page Objects/Landing Page/Button Sign In' is clicked on
+
+2018-02-15 19:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page Objects/Landing Page/Button Sign In' is clicked on
+
+2018-02-15 19:12:24 - [TEST_STEP][PASSED] - setText: Text 'kostya3189@gmail.com' is set on object 'Object Repository/Landing Page Objects/Sign In popup/Input Field Email Address'
+
+2018-02-15 19:12:25 - [MESSAGE][PASSED] - Text 'kostya3189@gmail.com' is set on object 'Object Repository/Landing Page Objects/Sign In popup/Input Field Email Address'
+
+2018-02-15 19:12:25 - [TEST_STEP][PASSED] - setText: Text '123123123Aa' is set on object 'Object Repository/Landing Page Objects/Sign In popup/Input Field Password'
+
+2018-02-15 19:12:25 - [MESSAGE][PASSED] - Text '123123123Aa' is set on object 'Object Repository/Landing Page Objects/Sign In popup/Input Field Password'
+
+2018-02-15 19:12:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page Objects/Sign In popup/Button Sign In' is clicked on
+
+2018-02-15 19:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page Objects/Sign In popup/Button Sign In' is clicked on
+
+2018-02-15 19:12:25 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Landing Page Objects/Landing Page/Sign out ' is visible
+
+2018-02-15 19:12:26 - [MESSAGE][PASSED] - Object 'Object Repository/Landing Page Objects/Landing Page/Sign out ' is visible
+
+2018-02-15 19:12:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page Objects/Landing Page/Sign out ' is clicked on
+
+2018-02-15 19:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page Objects/Landing Page/Sign out ' is clicked on
+
+2018-02-15 19:12:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-15 19:12:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Check Map Page Title" classname="Test Cases/Check Map Page Title" status="PASSED">
+         <system-out><![CDATA[2018-02-15 19:12:26 - [TEST_CASE][PASSED] - Test Cases/Check Map Page Title: Test Cases/Check Map Page Title
+
+2018-02-15 19:12:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-15 19:12:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-15 19:12:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:29 - [MESSAGE][PASSED] - Navigate to 'http://citymap.intetics.com/#/' successfully
+
+2018-02-15 19:12:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Landing Page Objects/Landing Page/Tab Map' is clicked on
+
+2018-02-15 19:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Landing Page Objects/Landing Page/Tab Map' is clicked on
+
+2018-02-15 19:12:29 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Stadt WiFi Karte: Karte'
+
+2018-02-15 19:12:29 - [MESSAGE][PASSED] - Current window's title is: 'Stadt WiFi Karte: Karte'
+
+2018-02-15 19:12:29 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Stadt WiFi Karte: Karte' and expected text 'Stadt WiFi Karte: Karte' are matched  using regular expression
+
+2018-02-15 19:12:29 - [MESSAGE][PASSED] - Actual text 'Stadt WiFi Karte: Karte' and expected text 'Stadt WiFi Karte: Karte' are matched  using regular expression
+
+2018-02-15 19:12:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-15 19:12:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-15 19:12:09 - [TEST_SUITE][PASSED] - Landing page: Test Cases/Check Map Page Title]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Data for DDT Sign UP</name>
+   <name>DataforDDTSignUP</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>515c981f-b61f-4514-9e09-926df01b9a28</dataFileGUID>
-   <dataSourceUrl>/Users/musienkok/Downloads/ValidTestEmail.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/musienkok/Downloads/ValidTestEmail-3.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
